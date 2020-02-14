@@ -49,7 +49,7 @@ class DynamicDayTime {
 			if ((hours >= 23 && hours <= 24) || (hours <= 4)) return "night";
 			else if (hours >= 5 && hours <= 10) return "morning";
 			else if (hours >= 11 && hours <= 16) return "day";
-			else if (hours >= 17 && hours <= 23) return "evening";
+			else if (hours >= 17 && hours < 23) return "evening";
 		}
 
 		const generateAero = () => {
