@@ -6,6 +6,8 @@ const tz = require("./data/tz.json");
 
 class DynamicDayTime {
 	constructor(mod) {
+		mod.game.initialize("me");
+
 		const serverTZ = tz[mod.region];
 
 		let intervalRef = undefined;
@@ -35,6 +37,7 @@ class DynamicDayTime {
 		}
 
 		const applyAero = (aero, blendTime) => {
+			if(mod.game.me.inDungeon) return;
 			resetAero();
 			sendAero(aero, blendTime);
 		};
