@@ -3,7 +3,7 @@
 		"data/aero.json": "3ca42f705149dfafdf9fe6b5f097919e0f903def754cd51a2d6e6d8073b92345",
 		"data/migration.js": "ce3451040b6f9a5e3b1b450aa6b44ce5e3249b398fc3f1905c1953a3d5fb3c7f",
 		"data/tz.json": "15078e4fae23a31b55275369e68ea9ba89dbe8814615d84dd96fc7072d3b76c2",
-		"index.js": "3bc82357f43bc078a3c4e75cabd7d8490afc71e2871795a11240d0a1da31883b",
+		"index.js": "9fc57e6d36ea58bf9fa00e66c906ce5fbd262b929377fe7352a7bbec71f8bccc",
 		"LICENSE": "90f8c7dacbf501cfda5f9545c85d705e6cecf6b8f21885e4c5e1f5f9d97dc837",
 		"node_modules/luxon/build/amd/luxon.js": "9a8513b0ef9282d3ae26a6433251b972f8f0fb6dfdf2639322eaa91f2f7f3437",
 		"node_modules/luxon/build/amd/luxon.js.map": "f826c17df9a0696b298b96617f22abb10c2fef9e24c769d1dbddd2999ca05e42",
