@@ -3,6 +3,7 @@
 		"morning": [
 			"mix_pic_aero.MIX_PIC_Sky_Aeroset",
 			"Kubel_Fortress_AERO.AERO.Kubel_Fortress_path02",
+			"atw_aeroset.AERO.SPR_Dawn_Garden_01_AERO",
 			"EX_Union_AERO.AERO.ASW.EX_ASW_C_CE_AERO"
 		],
 		"day": [
@@ -13,7 +14,9 @@
 		"evening": [
 			"EX01_SWN_SD.AERO.EX01_SWN_SD_AEROSET",
 			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Inner_AERO",
-			"A_Island_Aeroset.AERO.A_Island_SD_AERO"
+			"A_Island_Aeroset.AERO.A_Island_SD_AERO",
+			"Liar_AERO.AERO.Liar_AERO",
+			"Liar_AERO.AERO.Liar_AERO_02"
 		],
 		"night": [
 			"ase_aeroset.AERO.ASE_B_MoonCastle_AERO",
