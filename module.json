@@ -1,0 +1,15 @@
+{
+    "disableAutoUpdate": false,
+    "name": "dynamic-day",
+    "options": {
+        "niceName": "DD",
+        "guiName": "Dynamic Day",
+        "settingsVersion": 1,
+        "settingsFile": "./settings.json",
+        "settingsMigrator": "./data/migration.js"
+    },
+    "author": "SaltyMonkey",
+    "description": "Simple Tera Toolbox module which adds a dynamic environment to Tera Online based on the player’s local or server time",
+    "servers": ["https://raw.githubusercontent.com/SaltyMonkey/dynamic-day/master/"],
+    "supportUrl": ["https://github.com/SaltyMonkey/dynamic-day/issues"]
+}

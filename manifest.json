@@ -1,0 +1,27 @@
+{
+	"files": {
+		"data/aero.json": "3ca42f705149dfafdf9fe6b5f097919e0f903def754cd51a2d6e6d8073b92345",
+		"data/migration.js": "ce3451040b6f9a5e3b1b450aa6b44ce5e3249b398fc3f1905c1953a3d5fb3c7f",
+		"data/tz.json": "15078e4fae23a31b55275369e68ea9ba89dbe8814615d84dd96fc7072d3b76c2",
+		"index.js": "d1c412d4f62b86a135beadbf8ec8bdc8cb37222e0ff3675c456d18a569d2e2f0",
+		"LICENSE": "90f8c7dacbf501cfda5f9545c85d705e6cecf6b8f21885e4c5e1f5f9d97dc837",
+		"node_modules/luxon/build/amd/luxon.js": "9a8513b0ef9282d3ae26a6433251b972f8f0fb6dfdf2639322eaa91f2f7f3437",
+		"node_modules/luxon/build/amd/luxon.js.map": "f826c17df9a0696b298b96617f22abb10c2fef9e24c769d1dbddd2999ca05e42",
+		"node_modules/luxon/build/cjs-browser/luxon.js": "3a5d48b8fb1303e7c2fa0c299426a22acd38a0eac415a3926f470088de5dfc89",
+		"node_modules/luxon/build/cjs-browser/luxon.js.map": "f6d98ee8b382c9168ec7232242fe28421110e7f4c6f21e6e832f840677ba93c4",
+		"node_modules/luxon/build/global/luxon.js": "57dd8f19b2385ac056ed72c46cabf66bf768c7ffc53e488a9c03b30c4d89eab9",
+		"node_modules/luxon/build/global/luxon.js.map": "684a863f057bb1b3173c4798b286e50028baef279ac8fdbbf905d018f6d5691f",
+		"node_modules/luxon/build/global/luxon.min.js": "f673b342c3081b5d818ac96acfe5544834bc8b23f4ab8882cb515fce846f6d76",
+		"node_modules/luxon/build/global/luxon.min.js.map": "b5cad88082ebd874b3a5c356cf17d2144926beed9d3bba3720c9762499224215",
+		"node_modules/luxon/build/node/luxon.js": "0a81d410ea13f265d4c1c3ea0be6f6a2c3d367027a2c36217e12885a34dbe20b",
+		"node_modules/luxon/build/node/luxon.js.map": "6714ec9e5d5667648b77a6ae522e46ba1334fc7d6f18052703f18d889a267caf",
+		"node_modules/luxon/build/readme.md": "2accebeb33716b76be339502eec85673638cc0b7a6737ae1178bd6b71ebc1b1c",
+		"node_modules/luxon/changelog.md": "6e77f8b64f2ea36c848dabe3e46feee8a839fb0e46616a9b7c2ff0d75db6863e",
+		"node_modules/luxon/license.md": "6cb2f2bf697ee9c6fa9eb8f227c63ee6e7a3cba42d4717f14c745ef9b6cbc006",
+		"node_modules/luxon/package.json": "000b8440d1433e3aaceab89f34da2ce85fc006d4dbe5d89c6e73f5d40a36729e",
+		"node_modules/luxon/readme.md": "8c0be7e6068a6baadd25355f4627dccd127cfa8473f86b5c1ed2a3fe4c441cf5",
+		"package-lock.json": "1229e589ecfcda5eb89248dd530dbfc8eb186a2e819fa7b0d864c47cb4dbcd55",
+		"package.json": "2a4d29ed86aad198b72349df6831df215954d387c5d5fbbfbabd7041f9b578fa",
+		"README.md": "e4dd698333748603ca6b505100c570e460767764d1daf93697c63f5e21693561"
+	}
+}

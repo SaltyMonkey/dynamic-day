@@ -1,0 +1,24 @@
+{
+	"enumAero": {
+		"morning": [
+			"mix_pic_aero.MIX_PIC_Sky_Aeroset",
+			"Kubel_Fortress_AERO.AERO.Kubel_Fortress_path02",
+			"EX_Union_AERO.AERO.ASW.EX_ASW_C_CE_AERO"
+		],
+		"day": [
+			"Roundup_Hunting_AERO.AERO.Roundup_Hunting_AERO",
+			"A_Island_Aeroset.AERO.A_Island_02_AERO",
+			"aen_aeroset.AERO.JungleCoast_AERO_c_FINAL"
+		],
+		"evening": [
+			"EX01_SWN_SD.AERO.EX01_SWN_SD_AEROSET",
+			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Inner_AERO",
+			"A_Island_Aeroset.AERO.A_Island_SD_AERO"
+		],
+		"night": [
+			"ase_aeroset.AERO.ASE_B_MoonCastle_AERO",
+			"EX01_VK_DailyQuest.AERO.VK_DailyQuest_AERO",
+			"EX01_VK_DailyQuest_Aeroset.AERO.VK_DailyQuest_02_AERO"
+		]
+	}
+}

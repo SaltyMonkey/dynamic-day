@@ -1,0 +1,11 @@
+{
+  "name": "dynamic-day",
+  "version": "1.0.0",
+  "description": "Adds a dynamic environment to Tera Online based on the player’s local or server time.",
+  "main": "index.js",
+  "author": "SaltyMonkey",
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^1.22.0"
+  }
+}
