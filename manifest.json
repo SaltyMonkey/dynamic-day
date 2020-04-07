@@ -1,9 +1,9 @@
 {
 	"files": {
-		"data/aero.json": "d3dc7c4b2defd258c93bcd9167e0c81daf3598c148bf82a441907f1a92d8bf95",
-		"data/migration.js": "ce3451040b6f9a5e3b1b450aa6b44ce5e3249b398fc3f1905c1953a3d5fb3c7f",
+		"data/aero.json": "8c82b0d514e86bed89d47af31711008f1bfe62e519802a2f53921c8eda29f5ea",
+		"data/migration.js": "5035570f33898cd4cfe4e5aeb07f5ba55e30f1f00c4efc952fa64205963f0aaa",
 		"data/tz.json": "15078e4fae23a31b55275369e68ea9ba89dbe8814615d84dd96fc7072d3b76c2",
-		"index.js": "8a86211549a78ac4757bf87f12a8b6660fe87dbad84b10742f2cf37c989a8676",
+		"index.js": "b2713672af9f62c280f3e53b9ad436f6f85668983719508158f022be1ab7029e",
 		"LICENSE": "90f8c7dacbf501cfda5f9545c85d705e6cecf6b8f21885e4c5e1f5f9d97dc837",
 		"node_modules/luxon/build/amd/luxon.js": "9a8513b0ef9282d3ae26a6433251b972f8f0fb6dfdf2639322eaa91f2f7f3437",
 		"node_modules/luxon/build/amd/luxon.js.map": "f826c17df9a0696b298b96617f22abb10c2fef9e24c769d1dbddd2999ca05e42",
@@ -22,7 +22,7 @@
 		"node_modules/luxon/readme.md": "8c0be7e6068a6baadd25355f4627dccd127cfa8473f86b5c1ed2a3fe4c441cf5",
 		"package-lock.json": "1229e589ecfcda5eb89248dd530dbfc8eb186a2e819fa7b0d864c47cb4dbcd55",
 		"package.json": "2a4d29ed86aad198b72349df6831df215954d387c5d5fbbfbabd7041f9b578fa",
-		"README.md": "e4dd698333748603ca6b505100c570e460767764d1daf93697c63f5e21693561",
-		"module.json": "846c0ae6d8a05c960b9d2b8e26602f423de956793b1af914b641e4c0b3c0ef04"
+		"README.md": "2bf238f9b88f86e60412e035801accba0d57f3dcd4b8d2ae433a9b4b59c70b8f",
+		"module.json": "321c7812720a9d8aa740886e1a0600dcd95ba173221c41352f9ea1271a1d6056"
 	}
 }

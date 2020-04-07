@@ -4,6 +4,9 @@ const { DateTime } = require("luxon");
 const aeroData = require("./data/aero.json");
 const tz = require("./data/tz.json");
 
+const allowedTimeType = ["local", "server", "static"];
+const allowedDayPart = ["night", "morning", "day", "evening"];
+
 class DynamicDayTime {
 	constructor(mod) {
 		mod.game.initialize("me");
@@ -47,6 +50,7 @@ class DynamicDayTime {
 			switch(mod.settings.timeType) {
 				case("local"): hours = DateTime.local().hour; break;
 				case("server"): hours = serverTZ ? DateTime.utc().setZone(serverTZ).hour : DateTime.local().hour; break;
+				case("static"): return mod.settings.staticTime;
 				default : hours = DateTime.local().hour; break;
 			}
 			if ((hours >= 23) || (hours <= 4)) return "night";
@@ -55,10 +59,10 @@ class DynamicDayTime {
 			else if (hours >= 17 && hours < 23) return "evening";
 		}
 
-		const generateAero = () => {
+		const generateAero = (force = false) => {
 			let newDayPart = getCurrentDayState();
 
-			if (newDayPart === lastDayPart) return;
+			if (!force && newDayPart === lastDayPart) return;
 
 			let arr = aeroData.enumAero[newDayPart];
 			let newAero = arr[Math.floor(Math.random() * arr.length)];
@@ -90,7 +94,32 @@ class DynamicDayTime {
 
 		
 		mod.command.add("dn", {
-			"$none": () => { mod.settings.timeType = mod.settings.timeType === "local" ? "server" : "local"; }
+			"type": (type) => { 
+				if (!allowedTimeType.includes(type)) {
+					mod.command.message("Invalid time type parameter!");
+					return;
+				}
+				mod.settings.timeType = type;
+				mod.command.message(`Time type changed to "${mod.settings.timeType}"`)
+			},
+			"day": (daypart) => {
+				if(mod.settings.timeType !== "static") {
+					mod.command.message("You can't manually change current status - time type is not static");
+					return;
+				}
+
+				if(!allowedDayPart.includes(daypart)) {
+					mod.command.message("Invalid day type parameter!");
+					return;
+				}
+				
+				mod.settings.staticTime = daypart;
+				generateAero(true);
+			},
+			"roll": () => {
+				mod.command.message("Applying different aero based on day time");
+				generateAero(true);
+			}
 		})
 	}
 }

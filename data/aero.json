@@ -4,24 +4,48 @@
 			"mix_pic_aero.MIX_PIC_Sky_Aeroset",
 			"Kubel_Fortress_AERO.AERO.Kubel_Fortress_path02",
 			"atw_aeroset.AERO.SPR_Dawn_Garden_01_AERO",
-			"EX_Union_AERO.AERO.ASW.EX_ASW_C_CE_AERO"
+			"EX_Union_AERO.AERO.ASW.EX_ASW_C_CE_AERO",
+			"Liar_AERO.AERO.Liar_AERO",
+			"Liar_AERO.AERO.Liar_AERO_02",
+			"HWC_C_DarkRift_AeroSet.AERO.HWC_C_DarkRift01_AERO",
+			"Caliban_AEROSet.AERO.Caliban_Ext_Boss_AERO",
+			"anc_aeroset.AERO.SPR_Hookian_Swamp_AERO_FINAL",
+			"BF_snowBattle_aeroset.AERO.BF_snowBattle_renew_AERO",
+			"aen_aeroset.AERO.JUG_Misty_Island_02_AERO"
 		],
 		"day": [
 			"Roundup_Hunting_AERO.AERO.Roundup_Hunting_AERO",
 			"A_Island_Aeroset.AERO.A_Island_02_AERO",
-			"aen_aeroset.AERO.JungleCoast_AERO_c_FINAL"
+			"aen_aeroset.AERO.JungleCoast_AERO_c_FINAL",
+			"Basement_AERO.AERO.Basement_Outside_AERO",
+			"RNC_aeroset.AERO.RNC_Inside_AERO",
+			"HWC_C_DarkRift_AeroSet.AERO.HWC_C_DarkRift01_AERO",
+			"HWC_AEROSet.AERO.HWC_B_ICE_Plain_OLD_b_AERO",
+			"Caliban_AEROSet.AERO.Caliban_Ext_Boss_AERO",
+			"BF_snowBattle_aeroset.AERO.BF_snowBattle_renew_AERO",
+			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Rain_A_AERO"
+
 		],
 		"evening": [
 			"EX01_SWN_SD.AERO.EX01_SWN_SD_AEROSET",
 			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Inner_AERO",
 			"A_Island_Aeroset.AERO.A_Island_SD_AERO",
-			"Liar_AERO.AERO.Liar_AERO",
-			"Liar_AERO.AERO.Liar_AERO_02"
+			"Liar_AERO.AERO.Liar_AERO_02",
+			"RNC_aeroset.AERO.RNC_Inside_AERO",
+			"HWC_C_DarkRift_AeroSet.AERO.HWC_C_DarkRift01_AERO",
+			"HWC_AEROSet.AERO.ICE_ICE_Plain2_renew_AERO",
+			"Caliban_AEROSet.AERO.Caliban_Ext_Boss_AERO",
+			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Rain_A_AERO",
+			"aen_aeroset.AERO.JUG_Misty_Island_02_AERO"
 		],
 		"night": [
 			"ase_aeroset.AERO.ASE_B_MoonCastle_AERO",
 			"EX01_VK_DailyQuest.AERO.VK_DailyQuest_AERO",
-			"EX01_VK_DailyQuest_Aeroset.AERO.VK_DailyQuest_02_AERO"
+			"EX01_VK_DailyQuest_Aeroset.AERO.VK_DailyQuest_02_AERO",
+			"Laknan_Aeroset.AERO.Laknan_1F_FINAL_AERO",
+			"Durion_Aero.AERO.Durion_01Named_AERO",
+			"HWC_C_DarkRift_AeroSet.AERO.HWC_C_DarkRift01_AERO",
+			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Rain_A_AERO"
 		]
 	}
 }

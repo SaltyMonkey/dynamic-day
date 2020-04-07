@@ -12,9 +12,15 @@ Automatic installation 2:
 
 ## Usage
 
-By default player local time will be used. 
+Working out of box. By default player local time will be used. 
 
-You can change this behavior with command `/8 dn`
+## Commands
+
+/8 dn type <type> (local, server or static) - change type of time change, static means you want configure mod to use one desired day part, as example night 
+
+/8 dn day <day part> (night,morning,day or evening) - setup current day part
+
+/8 dn roll - change current aero randomly to next for current day part
 
 ## Settings
 
