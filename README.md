@@ -31,4 +31,6 @@ Working out of box. By default player local time will be used.
 
 ## Credits 
 
+- Beng - for hard work and effects test for this mod.
+
 - [HugeDong69](https://github.com/codeagon) original idea in past
