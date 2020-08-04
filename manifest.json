@@ -2,8 +2,8 @@
 	"files": {
 		"data/aero.json": "8c82b0d514e86bed89d47af31711008f1bfe62e519802a2f53921c8eda29f5ea",
 		"data/migration.js": "5035570f33898cd4cfe4e5aeb07f5ba55e30f1f00c4efc952fa64205963f0aaa",
-		"data/tz.json": "15078e4fae23a31b55275369e68ea9ba89dbe8814615d84dd96fc7072d3b76c2",
-		"index.js": "b2713672af9f62c280f3e53b9ad436f6f85668983719508158f022be1ab7029e",
+		"data/tz.json": "60dca659d9db56ee0674d389ab972e9815056ee6d2ac7a957bc5552ef9b8857a",
+		"index.js": "27d97797de16a6d03fa71628b3d0d926a57302333a65bc5ab003cabf69b28c88",
 		"LICENSE": "90f8c7dacbf501cfda5f9545c85d705e6cecf6b8f21885e4c5e1f5f9d97dc837",
 		"node_modules/luxon/build/amd/luxon.js": "9a8513b0ef9282d3ae26a6433251b972f8f0fb6dfdf2639322eaa91f2f7f3437",
 		"node_modules/luxon/build/amd/luxon.js.map": "f826c17df9a0696b298b96617f22abb10c2fef9e24c769d1dbddd2999ca05e42",

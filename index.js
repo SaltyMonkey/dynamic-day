@@ -11,7 +11,7 @@ class DynamicDayTime {
 	constructor(mod) {
 		mod.game.initialize("me");
 
-		const serverTZ = tz[mod.region];
+		const serverTZ = tz[mod.publisher];
 
 		let intervalRef = undefined;
 		let lastAero = undefined;
