@@ -7,6 +7,16 @@
 			"EX_Union_AERO.AERO.ASW.EX_ASW_C_CE_AERO",
 			"Liar_AERO.AERO.Liar_AERO",
 			"Liar_AERO.AERO.Liar_AERO_02",
+			"anc_aeroset.AERO.SPR_Hookian_Swamp_AERO_FINAL",
+			"aen_aeroset.AERO.JUG_Misty_Island_02_AERO"
+		],
+		"morning-weather": [
+			"mix_pic_aero.MIX_PIC_Sky_Aeroset",
+			"Kubel_Fortress_AERO.AERO.Kubel_Fotress_path02",
+			"atw_aeroset.AERO.SPR_Dawn_Garden_01_AERO",
+			"EX_Union_AERO.AERO.ASW.EX_ASW_C_CE_AERO",
+			"Liar_AERO.AERO.Liar_AERO",
+			"Liar_AERO.AERO.Liar_AERO_02",
 			"HWC_C_DarkRift_AeroSet.AERO.HWC_C_DarkRift01_AERO",
 			"Caliban_AEROSet.AERO.Caliban_Ext_Boss_AERO",
 			"anc_aeroset.AERO.SPR_Hookian_Swamp_AERO_FINAL",
@@ -14,6 +24,13 @@
 			"aen_aeroset.AERO.JUG_Misty_Island_02_AERO"
 		],
 		"day": [
+			"Roundup_Hunting_AERO.AERO.Roundup_Hunting_AERO",
+			"A_Island_Aeroset.AERO.A_Island_02_AERO",
+			"aen_aeroset.AERO.JungleCoast_AERO_c_FINAL",
+			"Basement_AERO.AERO.Basement_Outside_AERO"
+
+		],
+		"day-weather": [
 			"Roundup_Hunting_AERO.AERO.Roundup_Hunting_AERO",
 			"A_Island_Aeroset.AERO.A_Island_02_AERO",
 			"aen_aeroset.AERO.JungleCoast_AERO_c_FINAL",
@@ -31,6 +48,13 @@
 			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Inner_AERO",
 			"A_Island_Aeroset.AERO.A_Island_SD_AERO",
 			"Liar_AERO.AERO.Liar_AERO_02",
+			"aen_aeroset.AERO.JUG_Misty_Island_02_AERO"
+		],
+		"evening-weather": [
+			"EX01_SWN_SD.AERO.EX01_SWN_SD_AEROSET",
+			"EX01_ATW_Start_Aeroset.AERO.EX01_ATW_Start_01_Inner_AERO",
+			"A_Island_Aeroset.AERO.A_Island_SD_AERO",
+			"Liar_AERO.AERO.Liar_AERO_02",
 			"RNC_aeroset.AERO.RNC_Inside_AERO",
 			"HWC_C_DarkRift_AeroSet.AERO.HWC_C_DarkRift01_AERO",
 			"HWC_AEROSet.AERO.ICE_ICE_Plain2_renew_AERO",
@@ -39,6 +63,13 @@
 			"aen_aeroset.AERO.JUG_Misty_Island_02_AERO"
 		],
 		"night": [
+			"ase_aeroset.AERO.ASE_B_MoonCastle_AERO",
+			"EX01_VK_DailyQuest.AERO.VK_DailyQuest_AERO",
+			"EX01_VK_DailyQuest_Aeroset.AERO.VK_DailyQuest_02_AERO",
+			"Laknan_Aeroset.AERO.Laknan_1F_FINAL_AERO",
+			"Durion_Aero.AERO.Durion_01Named_AERO"
+		],
+		"night-weather": [
 			"ase_aeroset.AERO.ASE_B_MoonCastle_AERO",
 			"EX01_VK_DailyQuest.AERO.VK_DailyQuest_AERO",
 			"EX01_VK_DailyQuest_Aeroset.AERO.VK_DailyQuest_02_AERO",

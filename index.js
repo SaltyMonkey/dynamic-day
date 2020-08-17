@@ -5,7 +5,7 @@ const aeroData = require("./data/aero.json");
 const tz = require("./data/tz.json");
 
 const allowedTimeType = ["local", "server", "static"];
-const allowedDayPart = ["night", "morning", "day", "evening"];
+const allowedDayPart = ["night", "night-weather", "morning", "morning-weather", "day", "day-weather", "evening", "evening-weather"];
 
 class DynamicDayTime {
 	constructor(mod) {
@@ -53,10 +53,10 @@ class DynamicDayTime {
 				case("static"): return mod.settings.staticTime;
 				default : hours = DateTime.local().hour; break;
 			}
-			if ((hours >= 23) || (hours <= 4)) return "night";
-			else if (hours >= 5 && hours <= 10) return "morning";
-			else if (hours >= 11 && hours <= 16) return "day";
-			else if (hours >= 17 && hours < 23) return "evening";
+			if ((hours >= 23) || (hours <= 4)) return mod.settings.useWeather ? "night-weather" : "night";
+			else if (hours >= 5 && hours <= 10) return mod.settings.useWeather ? "morning-weather" :"morning";
+			else if (hours >= 11 && hours <= 16) return mod.settings.useWeather ? "day-weather" : "day";
+			else if (hours >= 17 && hours < 23) return mod.settings.useWeather ? "evening-weather" : "evening";
 		}
 
 		const generateAero = (force = false) => {
@@ -115,6 +115,10 @@ class DynamicDayTime {
 				
 				mod.settings.staticTime = daypart;
 				generateAero(true);
+			},
+			"weather": () => {
+				mod.settings.useWeather = !mod.settings.useWeather;
+				mod.command.message(`Apply weather: ${mod.settings.useWeather}`);
 			},
 			"roll": () => {
 				mod.command.message("Applying different aero based on day time");
