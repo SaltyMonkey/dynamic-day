@@ -30,6 +30,9 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
 			case 2:
 				settings.staticTime = "night";
 				break;
+			case 3:
+				settings.useWeather = true;
+				break;
 		}
 
 		return settings;

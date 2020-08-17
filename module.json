@@ -4,7 +4,7 @@
     "options": {
         "niceName": "DD",
         "guiName": "Dynamic Day",
-        "settingsVersion": 2,
+        "settingsVersion": 3,
         "settingsFile": "./settings.json",
         "settingsMigrator": "./data/migration.js"
     },
