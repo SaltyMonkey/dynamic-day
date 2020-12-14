@@ -26,7 +26,7 @@ class DynamicDayTime {
 		};
 
 		const resetAero = () => {
-			mod.send("S_SPAWN_NPC", 11, {
+			mod.send("S_SPAWN_NPC", mod.majorPatchVersion >= 101 ? 12 : 11, {
 				gameId: 696969696969,
 				templateId: 8005000, 
 				huntingZoneId: 1023,
