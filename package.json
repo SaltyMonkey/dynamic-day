@@ -6,6 +6,6 @@
   "author": "SaltyMonkey",
   "license": "MIT",
   "dependencies": {
-    "luxon": "^1.22.0"
+    "luxon": "^2.5.2"
   }
 }
